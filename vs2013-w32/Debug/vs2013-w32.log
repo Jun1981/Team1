@@ -1,0 +1,74 @@
+﻿2014/11/19 3:23:37 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "H:\SVA\TEAM_PROJECT\vs2013-w32\vs2013-w32.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\cpp\TEAM_SEISAKU1.cpp
+         TEAM_SEISAKU1.cpp
+     1>h:\sva\team_project\cpp\team_seisaku1.cpp(180): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\SVA\TEAM_PROJECT\vs2013-w32\Debug\vs2013-w32.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\SVA\TEAM_PROJECT\vs2013-w32\Debug\vs2013-w32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\SVA\TEAM_PROJECT\vs2013-w32\Debug\vs2013-w32.lib" /MACHINE:X86 Debug\TEAM_SEISAKU1.obj
+         ..\DxLib\DxDrawFunc.lib
+         ..\DxLib\DxDrawFunc_d.lib
+         ..\DxLib\DxDrawFunc_x64.lib
+         ..\DxLib\DxDrawFunc_x64_d.lib
+         ..\DxLib\DxLib.lib
+         ..\DxLib\DxLibW.lib
+         ..\DxLib\DxLibW_d.lib
+         ..\DxLib\DxLibW_x64.lib
+         ..\DxLib\DxLibW_x64_d.lib
+         ..\DxLib\DxLib_d.lib
+         ..\DxLib\DxLib_x64.lib
+         ..\DxLib\DxLib_x64_d.lib
+         ..\DxLib\DxUseCLib.lib
+         ..\DxLib\DxUseCLibW.lib
+         ..\DxLib\DxUseCLibW_d.lib
+         ..\DxLib\DxUseCLibW_x64.lib
+         ..\DxLib\DxUseCLibW_x64_d.lib
+         ..\DxLib\DxUseCLib_d.lib
+         ..\DxLib\DxUseCLib_x64.lib
+         ..\DxLib\DxUseCLib_x64_d.lib
+         ..\DxLib\libbulletcollision_vc6.lib
+         ..\DxLib\libbulletcollision_vc6_d.lib
+         ..\DxLib\libbulletcollision_vc8_x64.lib
+         ..\DxLib\libbulletcollision_vc8_x64_d.lib
+         ..\DxLib\libbulletdynamics_vc6.lib
+         ..\DxLib\libbulletdynamics_vc6_d.lib
+         ..\DxLib\libbulletdynamics_vc8_x64.lib
+         ..\DxLib\libbulletdynamics_vc8_x64_d.lib
+         ..\DxLib\libbulletmath_vc6.lib
+         ..\DxLib\libbulletmath_vc6_d.lib
+         ..\DxLib\libbulletmath_vc8_x64.lib
+         ..\DxLib\libbulletmath_vc8_x64_d.lib
+         ..\DxLib\libjpeg.lib
+         ..\DxLib\libjpeg_d.lib
+         ..\DxLib\libjpeg_x64.lib
+         ..\DxLib\libjpeg_x64_d.lib
+         ..\DxLib\libpng.lib
+         ..\DxLib\libpng_d.lib
+         ..\DxLib\libpng_x64.lib
+         ..\DxLib\libpng_x64_d.lib
+         ..\DxLib\libtheora_static.lib
+         ..\DxLib\libtheora_static_d.lib
+         ..\DxLib\libtheora_static_x64.lib
+         ..\DxLib\libtheora_static_x64_d.lib
+         ..\DxLib\ogg_static.lib
+         ..\DxLib\ogg_static_d.lib
+         ..\DxLib\ogg_static_x64.lib
+         ..\DxLib\ogg_static_x64_d.lib
+         ..\DxLib\vorbisfile_static.lib
+         ..\DxLib\vorbisfile_static_d.lib
+         ..\DxLib\vorbisfile_static_x64.lib
+         ..\DxLib\vorbisfile_static_x64_d.lib
+         ..\DxLib\vorbis_static.lib
+         ..\DxLib\vorbis_static_d.lib
+         ..\DxLib\vorbis_static_x64.lib
+         ..\DxLib\vorbis_static_x64_d.lib
+         ..\DxLib\zlib.lib
+         ..\DxLib\zlib_d.lib
+         ..\DxLib\zlib_x64.lib
+         ..\DxLib\zlib_x64_d.lib
+         vs2013-w32.vcxproj -> H:\SVA\TEAM_PROJECT\vs2013-w32\Debug\vs2013-w32.exe
+     1>プロジェクト "H:\SVA\TEAM_PROJECT\vs2013-w32\vs2013-w32.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.72
