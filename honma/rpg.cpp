@@ -5,7 +5,7 @@
  **********************
  */
 
-#include "DxLib/DxLib.h"
+#include "../DxLib/DxLib.h"
 #define P_SPD 4
 
 typedef struct{
