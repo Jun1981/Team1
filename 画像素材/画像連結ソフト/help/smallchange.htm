@@ -1,0 +1,209 @@
+<!DOCTYPE HTML PUBLIC "-//IBM//DTD HPB HTML//EN">
+<HTML>
+<HEAD>
+<META name="GENERATOR" content="IBM HomePage Builder V3.0.5  for Windows">
+<TITLE>Small Change By HiraPro</TITLE>
+</HEAD>
+
+<BODY bgcolor="#000000" text="#ffffff">
+
+<P>
+<FONT size="+1"><B><FONT size="+2" color="#00ffff">Small Change 説明書</FONT></B></FONT>
+</P>
+<P>
+<BR>
+<FONT size="+1" color="#ff80ff">Jointogether版</FONT><BR>
+</P>
+<HR>
+<P>
+<FONT size="+1" color="#ff8000">用途</FONT><BR>
+　<FONT color="#ff80ff">Jointogetherの元画像パーツを加工編集します。</FONT><BR>
+　画像の一部を切り取って別の画像として保存します。<BR>
+　また、画像を拡大･縮小したり、回転させることもできます。もちろんその後でまた切り取ることもできます。<BR>
+<BR>
+<FONT size="+1" color="#ff8000">使用例</FONT>
+</P>
+<TABLE>
+  <TR>
+    <TD valign="top">元の画像<BR>
+<IMG src="outinthefields_ori.jpg" alt="original" height="256" width="320" border="0"></TD>
+    <TD>拡大<BR>
+<IMG src="outinthefields_big.jpg" alt="big" height="384" width="480" border="0"></TD></TR>
+  <TR>
+    <TD valign="top">切り取り<BR>
+<IMG src="outinthefields_cut.jpg" alt="cut" height="128" width="256" border="0"></TD>
+    <TD rowspan="2" valign="top">回転<BR>
+<IMG src="outinthefields_tilt.jpg" alt="tilt" height="382" width="406" border="0"></TD></TR>
+  <TR>
+    <TD valign="top">縮小<BR>
+<IMG src="outinthefields_small.jpg" alt="small" height="128" width="160" border="0"></TD></TR>
+</TABLE>
+
+<P>
+<FONT size="+1" color="#ff8000">使い方</FONT><BR>
+１．元画像（BMP・JPG）をロードします。元画像が表示されます。<BR>
+２．必要なら元画像を拡大･縮小、または回転させます。<BR>
+３．切り取る部分をマウスドラッグで大まかに選択します。<BR>
+４．切り取り選択部分を数値指定やカーソルキーで微調整します。<BR>
+５．選択部分を別画像（BMP・JPG）に保存します。<BR>
+<FONT color="#00ff00">２～４はどのような順序でも行えます。また選択部分だけを表示させて、そこから変形させることもできます。<BR>
+なお画像ロードおよび変形の直後は画像全体が選択された状態になっています。</FONT><BR>
+<BR>
+<FONT size="+1" color="#ff8000">操作</FONT><BR>
+<FONT color="#ff80ff">「OK」ボタンを押すとJointogetherの画像パーツが変更されます。「キャンセル」なら変更されずにこの画面が閉じられます。<BR>
+｢リロード｣ボタンは独立版Small Changeと逆で、編集中の画像を元ファイルから再ロードします。またドラッグ＆ドロップによるロードは対応していません。</FONT><BR>
+<BR>
+<FONT color="#ffff00">切り取り画面</FONT><BR>
+<IMG src="mainshot.jpg" alt="mainwindow" align="left" height="439" width="519" border="0"><FONT color="#ff0000">リロード</FONT>ボタン
+/ メニュー <FONT color="#ff80ff">ファイル＞再ロード</FONT> / <FONT color="#ff8000">Ctrl+O</FONT><BR>
+　表示中のファイルを再ロードできます。<BR>
+<BR>
+<FONT color="#ff8000">Ctrl+</FONT><FONT color="#ff0000">リロード</FONT>ボタン
+/ メニュー <FONT color="#ff80ff">ファイル＞再ロード</FONT><BR>
+　ファイルから選択した画像をロードします。<BR>
+<BR>
+<FONT color="#ff0000">サイズ変更</FONT>ボタン / メニュー <FONT color="#ff80ff">編集＞サイズ変更</FONT>
+/ <FONT color="#ff8000">Ctrl+R</FONT><BR>
+　拡大／縮小、回転の操作画面が出ます。<BR>
+<BR>
+<FONT color="#ff0000">保存</FONT>ボタン/ メニュー <FONT color="#ff80ff">ファイル＞保存</FONT>
+/ <FONT color="#ff8000">Ctrl+S</FONT><BR>
+　画像保存ダイアログが出ます。選択したファイルに選択範囲の画像がセーブされます。<BR>
+　JPEG保存のときは「JPEG画質」数値が大きいほど画質が良くなり、ファイルサイズが大きくなります。<BR>
+<BR>
+<FONT color="#ff8000">Ctrl+</FONT><FONT color="#ff0000">カット＆保存</FONT>ボタン
+/ メニュー <FONT color="#ff80ff">編集＞切り抜き</FONT><BR>
+　ファイルセーブせずに選択範囲内だけが切り抜かれます。<BR>
+　<FONT color="#00ff00">この変化は元に戻せないので、戻すときはリロードしてください。</FONT><BR>
+<BR>
+メニュー <FONT color="#ff80ff">編集＞ペースト</FONT> / <FONT color="#ff8000">Ctrl+V</FONT><BR>
+　クリップボードの画像を元画像として貼り付けます。<BR>
+<BR>
+メニュー <FONT color="#ff80ff">編集＞コピー</FONT> / <FONT color="#ff8000">Ctrl+C</FONT><BR>
+　選択範囲の画像がクリップボードにコピーされます。<BR>
+<BR>
+<FONT color="#ff0000">選択範囲エッジ選択</FONT>ボタン<BR>
+　クリックすると選択範囲のエッジだけが動くようになり、移動バーのドラッグまたはカーソルキーで動かせるようになります。<BR>
+<BR>
+　<IMG src="yumove.jpg" alt="edgemove" height="137" width="233" border="0"><BR>
+　上端・下端・右端・左端用の４つがあります。<BR>
+<FONT color="#ff0000">選択範囲エッジ位置<BR>
+</FONT>　数値の入力または上下で選択範囲のエッジを指定します。上端・下端・右端・左端の４つがあります。<BR>
+<FONT color="#ff0000">選択範囲サイズ<BR>
+</FONT>　数値の入力または上下で選択範囲のサイズを指定します。縦・横の２つがあります。<BR>
+　<FONT color="#00ff00">変更すると左端・下端が動きます。右端・上端はそのままです。</FONT><BR>
+<FONT color="#ff0000">選択範囲移動バー<BR>
+</FONT>　青い部分が選択範囲です。中央のつまみをドラッグまたはカーソルキーで動かすと、選択範囲のサイズはそのままで位置が動きます。<BR>
+<FONT color="#ff0000">選択範囲（画像上)<BR>
+</FONT>　<FONT color="#00ffff">線の内部が切り取られて保存される部分です。線の部分は含まれません。</FONT><BR>
+　<FONT color="#00ff00">Ctrlを押しながら元画像上をクリック→ドラッグすると矩形選択の要領で決めることができます。<BR>
+　普通にクリック→ドラッグでサイズはそのままで移動することができます。</FONT><BR>
+<BR>
+<FONT color="#ff0000">｢元画像｣ダブルクリック</FONT> / メニュー <FONT color="#ff80ff">選択範囲＞リセット</FONT>
+/ <FONT color="#ff8000">Esc</FONT><BR>
+　選択範囲が元画像全体にリセットされます。<BR>
+<BR>
+メニュー <FONT color="#ff80ff">編集＞左右反転</FONT><BR>
+　画像全体を左右反転させます。<BR>
+<BR>
+メニュー <FONT color="#ff80ff">編集＞上下反転</FONT><BR>
+　画像全体を上下反転させます。<BR>
+<BR>
+<BR>
+<FONT color="#ffff00">変形画面</FONT><BR>
+<IMG src="resize.jpg" alt="resize" align="left" height="206" width="291" border="0"><FONT color="#ff0000">縦横比維持チェック</FONT><BR>
+　ONにしておくと変形後のサイズ縦横比が元画像と同じになります。一方を変化させるともう片方が自動でセットされます。<BR>
+　OFFにすると自由に変形できます。<BR>
+　<FONT color="#ff00ff">一方は元画像より大きく（拡大)、一方は小さく(縮小)という設定にすると、変形後の画質は保証できかねます。</FONT><BR>
+<FONT color="#ff0000">回転角度</FONT><BR>
+　上下ボタンは90°単位、小数点以下は0.10°単位で変化します。<BR>
+　<FONT color="#ff00ff">回転角度を「0」以外にすると変形後サイズが自動セットになります。拡大／縮小を同時にすることはできません。</FONT><BR>
+<FONT color="#ff0000">プレビュー／キャンセル／決定ボタン</FONT><BR>
+　「プレビュー」を押すとメイン画面に変形後の画像が表示されます。<BR>
+　<FONT color="#ff00ff">プレビュー後「キャンセル」を押すかこの画面を閉じると元に戻ります。｢決定｣を押すと変形が反映されます。</FONT><BR>
+　「プレビュー」を押さずにいきなり｢決定｣を押しても変形が反映されます。<BR>
+<FONT color="#00ffff">　変形が反映されると元に戻せないので、戻すときは切り取り画面でリロードしてください。<BR>
+</FONT><BR>
+<FONT color="#0080ff">透明色</FONT><BR>
+　拡大・縮小・回転を行うとき、「透明色」チェックをONにしておくと、透明色部分は補間処理されずに残す部分と分離されます。<BR>
+　このチェックをONにしないで変形すると、後で透明色設定したときに画像の残す部分の縁が透明色と混ざってしまいます。
+</P>
+<TABLE border="1">
+  <TR>
+    <TD>元画像<BR>
+<IMG src="test.bmp" height="144" width="119" border="0"><BR>
+緑の部分を透明にして<BR>
+オレンジに変えます。</TD>
+    <TD>拡大(透明色指定なし)<BR>
+縁は滑らかに補間されます。<BR>
+<IMG src="test3.bmp" height="182" width="150" border="0"></TD>
+    <TD>右の絵を透明色ONにすると<BR>
+縁に緑色が混ざっています。<BR>
+<IMG src="test4.bmp" height="182" width="150" border="0"></TD>
+    <TD>拡大(透明色指定あり)<BR>
+縁がちょっとギザギザしています。<BR>
+<IMG src="test5.bmp" height="182" width="150" border="0"></TD>
+    <TD>右の絵を透明色ONにすると<BR>
+緑色は混ざりません。<BR>
+<IMG src="test6.bmp" height="182" width="150" border="0"></TD></TR>
+</TABLE>
+
+<P>
+　透明色を変えたいときは｢色指定｣ボタンを押してから、切り取り画面の画像表示部をクリックします。クリックした点の色が透明色になります。<BR>
+　<FONT color="#ff80ff">透明色チェック・指定透明色はJointogetherメイン画面と連動しています。<BR>
+</FONT><FONT color="#ff0000">選択率<BR>
+</FONT>　透明色が選択率（％）以上含まれる縁の部分は、透明色で塗りつぶされます。逆にそれ以外の縁の部分は透明色をつぶします。<BR>
+　つまり選択率が大きいほど残る縁の部分が多くなります。
+</P>
+<TABLE border="1">
+  <TR>
+    <TD>0%<BR>
+<IMG src="test7.bmp" height="182" width="150" border="0"></TD>
+    <TD>50%<BR>
+<IMG src="test5.bmp" height="182" width="150" border="0"></TD>
+    <TD>100%<BR>
+<IMG src="test8.bmp" height="182" width="150" border="0"></TD></TR>
+</TABLE>
+
+<P>
+<FONT color="#ff0000">隙間色</FONT><BR>
+<IMG src="resize2.jpg" alt="resize2" align="left" height="25" width="163" border="0">　回転後の画像は四隅に隙間ができます。この隙間を指定色で塗りつぶします。色は｢隙間色｣ボタンを押して変更できます。<BR>
+　｢枠補正なし」をONにしておくと隙間塗りつぶし部分と元画像部分の境が分けられます。OFFにすると補間により境は滑らかになります。<BR>
+</P>
+<TABLE align="left" border="1">
+  <TR>
+    <TD>枠補正ON<BR>
+<IMG src="test1.bmp" height="40" width="128" border="0"><BR>
+↓透明化<BR>
+<IMG src="test12.bmp" height="40" width="128" border="0"></TD>
+    <TD>枠補正OFF<BR>
+<IMG src="test2.bmp" height="40" width="128" border="0"><BR>
+↓透明化<BR>
+<IMG src="test22.bmp" height="40" width="128" border="0"></TD></TR>
+</TABLE>
+
+<P>
+　<FONT color="#00ff00">隙間部分を透明化して別の画像と重ねる場合はOFFにします。<BR>
+　透明色を指定して回転する場合は、隙間色は透明色と同じになります。枠補正も自動でOFFになります。</FONT><BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<FONT size="+1" color="#ff8000">その他</FONT>
+</P>
+<UL>
+  <LI>本ソフトはフリーソフトです。無断商用転載を禁じます。
+  <LI>本ソフトはDelphi6 Personalにて製作しました。
+</UL>
+<P>
+<FONT size="+1" color="#ff8000">ご意見･ご感想はこちらまで</FONT><BR>
+<A href="http://homepage3.nifty.com/hirapro/"><IMG src="hpbanner.gif" alt="HiraPro" align="middle" height="51" width="231" border="0">http://homepage3.nifty.com/hirapro/</A><BR>
+<A href="mailto:hirapro@nifty.com">hirapro@nifty.com</A><BR>
+<BR>
+<A href="../readme.htm">戻る</A>　
+</P>
+</BODY>
+</HTML>

@@ -1,11 +1,15 @@
-﻿2014/11/19 3:23:37 にビルドを開始しました。
+﻿2014/12/02 23:18:48 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "H:\SVA\TEAM_PROJECT\vs2013-w32\vs2013-w32.vcxproj" (Build ターゲット)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\cpp\TEAM_SEISAKU1.cpp
          TEAM_SEISAKU1.cpp
-     1>h:\sva\team_project\cpp\team_seisaku1.cpp(180): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\SVA\TEAM_PROJECT\vs2013-w32\Debug\vs2013-w32.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\SVA\TEAM_PROJECT\vs2013-w32\Debug\vs2013-w32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\SVA\TEAM_PROJECT\vs2013-w32\Debug\vs2013-w32.lib" /MACHINE:X86 Debug\TEAM_SEISAKU1.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\SVA\TEAM_PROJECT\vs2013-w32\Debug\vs2013-w32.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\SVA\TEAM_PROJECT\vs2013-w32\Debug\vs2013-w32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\SVA\TEAM_PROJECT\vs2013-w32\Debug\vs2013-w32.lib" /MACHINE:X86 Debug\GLOBAL.obj
+         Debug\hyouji.obj
+         Debug\calc.obj
+         Debug\init.obj
+         Debug\player.obj
+         Debug\TEAM_SEISAKU1.obj
          ..\DxLib\DxDrawFunc.lib
          ..\DxLib\DxDrawFunc_d.lib
          ..\DxLib\DxDrawFunc_x64.lib
@@ -71,4 +75,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:01.72
+経過時間 00:00:02.28

@@ -171,6 +171,18 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath="..\cpp\GLOBAL_V.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\cpp\idou.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\cpp\map.cpp"
+				>
+			</File>
+			<File
 				RelativePath="..\cpp\TEAM_SEISAKU1.cpp"
 				>
 			</File>
@@ -180,6 +192,14 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<File
+				RelativePath="..\cpp\GLOBAL_EXT.h"
+				>
+			</File>
+			<File
+				RelativePath="..\cpp\idou.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="リソース ファイル"

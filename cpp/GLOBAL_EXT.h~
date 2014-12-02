@@ -1,0 +1,29 @@
+	//グローバル変数
+extern int Key_Trg, Key_Info, Key_Old;   // キー情報r
+extern int ChkKAny;                             // とにかくキーが押されたらtrue
+extern int GLpCnt;                             // ゲームループカウンタ
+extern int i, j, k,l;//ループ用
+extern int title;//タイトル画像読み込み用
+extern int bg; //ゲーム本編背景画像用
+extern int GO;//ゲームオーバー画面読み取り用
+extern int cl;//クリア画面用
+
+extern int ten;//点数
+extern int et,t_limit;//時間
+extern 
+extern int haji=0;//端フラグ
+extern int tamahaba=0;//弾の幅
+
+extern int FontHandle1;
+extern 
+extern int loop;//ループ用
+extern int loop_s;//ループスピードカウンタ
+
+
+
+extern int muki;//キャラの向き　8方向
+extern int haba,tate;
+extern 
+extern int MHandle[4];  //大マップ用 
+
+

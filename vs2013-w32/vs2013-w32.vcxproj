@@ -80,6 +80,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\cpp\GLOBAL.cpp" />
+    <ClCompile Include="..\cpp\hyouji.cpp" />
+    <ClCompile Include="..\cpp\calc.cpp" />
+    <ClCompile Include="..\cpp\init.cpp" />
+    <ClCompile Include="..\cpp\player.cpp" />
     <ClCompile Include="..\cpp\TEAM_SEISAKU1.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -143,6 +148,13 @@
     <Library Include="..\DxLib\zlib_d.lib" />
     <Library Include="..\DxLib\zlib_x64.lib" />
     <Library Include="..\DxLib\zlib_x64_d.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cpp\GLOBAL.h" />
+    <ClInclude Include="..\cpp\hyouji.h" />
+    <ClInclude Include="..\cpp\calc.h" />
+    <ClInclude Include="..\cpp\init.h" />
+    <ClInclude Include="..\cpp\player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

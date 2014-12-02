@@ -1,0 +1,1 @@
+extern void hyouji(void);//•\Ž¦
